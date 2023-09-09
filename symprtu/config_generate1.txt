@@ -1,0 +1,22 @@
+105 5917728384525935453 7896570594100408739 1950000000000 15 128000 0 518401 971e6 1e8 1 1 6 6 1 1 1 5,91E+18
+#82 2148489160000000000 9000000000000000000 1950000000000 15 250 0 518401 671e6 1e8 2 2 6 6 2 1 1 14e17
+#
+# 18 field must be !
+#
+#81 2148489160000000000 9000000000000000000 1950000000000 15 2   1 518401 671e6 1e8 2 4 6 6 2 1 1 14e17
+#81 2148489160000000000 9000000000000000000 1950000000000
+#batch >> start >> end >> step
+#|is num batch to work
+#   |start value
+#                       |end value
+#                                           |step value per one wu 
+# >> next >> maxcnt >> count >> delay_bound >> memory_bound >> disk_bound
+# 15 2 1 518401 671e6 1e8
+# >> min_quorum >> target_nresults >> max_error_results >> max_total_results >> max_success_results
+# 2 4 6 6 2
+#                  where target_nresults=min_quorum or > min_quorum
+# >> wu_in_file_generate >> batch_post_forum >> conf_from
+# 1 1 14e17
+# |if more 0 then also generated spt_8*_*.in files to download directory
+#   |if more 0 then report to forum
+#     |the end of string to post message tray
